@@ -1,0 +1,40 @@
+* {
+        padding: 0;
+        margin: 0;
+        font-family: "Mulish", sans-serif;
+        box-sizing: border-box;
+      }
+
+.container2{
+    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 45;
+}
+#profileCard{
+  width: 25rem;
+  padding: 30px;
+  box-shadow: 1px 1px 3px;
+  margin-bottom:1rem;
+  z-index: 30;
+  text-align: center;
+  background-color: white;
+}
+.background2{
+    position:fixed;
+    top:180px;
+    width:100vw;
+    
+}
+button {
+    width: 100%;
+    padding: 13px;
+    background: linear-gradient(180deg, #625bf7 0%, #463eea 100%);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }

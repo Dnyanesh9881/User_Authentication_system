@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=DM+Sans:opsz@9..40&family=Inter+Tight&family=Mulish&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img class="background1" src="./assets/Background Pattern.svg" />
+    <div class="container">
+      <div id="signInCard">
+        <p>Welcome back! 👋</p>
+          <h3>Sign up your account</h3>
+          <br />
+        <form id="form" onchange="onFormChange()">
+          <label for="fullName">Your Name</label><br />
+          <input type="text" name="fullName" id="fullName" required/><br />
+          <label for="email">Your Email</label><br />
+          <input type="text" name="email" id="email" required/><br />
+          <label for="password">Password</label><br />
+          <input type="text" name="password" id="password" required/><br />
+          <label for="passwordsame">Confirm Password</label><br />
+          <input
+            type="text"
+            name="passwordsame"
+            id="passwordsame"
+            required
+          /><br /><br />
+          <button  class="submitB">CONTINUE</button><br /><br />
+          
+        </form>
+        <p class="error">Error: All fields are mandatory!</p>
+      </div>
+
+      <p class="bottom">
+        Don't have an account? <span style="color: #625bf7">Sign up</span>
+      </p>
+      
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

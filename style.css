@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 45;
+}
+#signInCard {
+  width: 25rem;
+  padding: 30px;
+  box-shadow: 1px 1px 3px;
+  margin-bottom:1rem;
+  z-index: 30;
+}
+button {
+  width: 100%;
+  padding: 13px;
+  background: linear-gradient(180deg, #625bf7 0%, #463eea 100%);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+button>a{
+    text-decoration: none;
+    color: white;
+}
+input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #dedede;
+}
+.error {
+  color: #625bf7;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+.background1{
+    position:fixed;
+    top:180px;
+    width:100vw;
+    
+}
+.bottom{
+    z-index: 10;
+}
+.a12{
+z-index: 13;
+}
