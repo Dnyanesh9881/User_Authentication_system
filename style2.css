@@ -14,7 +14,7 @@
   z-index: 45;
 }
 #profileCard{
-  width: 25rem;
+  width: 30rem;
   padding: 30px;
   box-shadow: 1px 1px 3px;
   margin-bottom:1rem;
@@ -37,4 +37,9 @@ button {
     border-radius: 5px;
     margin-bottom: 1rem;
     font-weight: 700;
+  }
+  #message{
+    z-index: 70;
+    font-size: 20px;
+    color: #463eea;
   }
